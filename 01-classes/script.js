@@ -27,5 +27,6 @@ console.log(rect1);
 console.log(rect1.name);
 console.log(rect1.area());
 console.log(rect1.perimeter());
+console.log(rect2.area());
 rect1.log();
 rect2.log();
