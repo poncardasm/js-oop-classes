@@ -76,7 +76,7 @@ console.log(square);
 
 Notice we see the same thing that we have been seeing when we use constructors/prototypes.
 
-<img src="images/rect-class-console.png" width="500">
+![rect-class-console](rect-class-console.png)
 
 It is a `Rectangle` object with a `height` property of `10` and a `width` property of `10`. It also has an `area` method on the prototype. This is exactly what we would expect.
 
@@ -105,9 +105,9 @@ Rectangle.prototype.logArea = function () {
 };
 
 const square = new Rectangle('Square', 20, 20);
-console.log(square.perimeter()); 
-console.log(square.isSquare()); 
-square.logArea(); 
+console.log(square.perimeter());
+console.log(square.isSquare());
+square.logArea();
 ```
 
 The same code that we have been writing throughout this section. The only difference is that we are using the `class` keyword and the `constructor` keyword and the code looks a bit nicer.
