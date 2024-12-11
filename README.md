@@ -4,24 +4,24 @@ This repository is my learning playground for mastering **Object-Oriented Progra
 
 ## 📚 Topics Covered
 
-### 1. Classes
+### Classes
 
 - Class basics and structure.
 - Class inheritance for reusable components.
 - Static methods and their use cases.
 - Binding and defining `this`.
 
-### 2. Getters and Setters
+### Getters and Setters
 
 - Using getters and setters in classes for encapsulation.
 - Implementing getters and setters with `Object.defineProperty()`.
 
-### 3. Private Properties
+### Private Properties
 
 - Private property underscore convention.
 - Using ES2022 private class fields (`#fieldName`).
 
-### 4. Property Management
+### Property Management
 
 - Understanding property flags and descriptors.
 - Sealing and freezing objects to control mutability.
