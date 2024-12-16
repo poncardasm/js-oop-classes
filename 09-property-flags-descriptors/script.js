@@ -35,3 +35,22 @@ for (let [key, value] of Object.entries(shapeObj)) {
 }
 
 console.log(Object.getOwnPropertyDescriptors(shapeObj));
+
+// Another example
+
+const bankAccount = {};
+
+Object.defineProperty(bankAccount, 'balance', {
+  value: 1000, // Setting the initial value
+  writable: false, // Prevent overwriting
+  enumerable: false, // Hide from loops
+  configurable: false, // Lock the property descriptor
+});
+
+// Trying to modify the balance
+bankAccount.balance = 2000; // Fails silently or throws an error in strict mode
+
+// Balance doesn't appear in Object.keys
+console.log(Object.keys(bankAccount)); // []
+
+console.log(bankAccount.balance); // 1000
